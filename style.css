@@ -1,0 +1,235 @@
+
+*{ margin: 0;
+    padding: 0;}
+
+body{
+    font-family: 'Open Sans', sans-serif;}
+
+.header-box{
+    background-image: url(imgs/header.jpg);
+    min-height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-box h1{
+    font-size: 50px;
+    color: white;
+margin: 20px;
+line-height: 30px;}
+
+.header-box p{ 
+    font-size: 20px;
+    color: #DEDEDE;
+    text-align: center;
+}
+.header-box a{
+    color: white;
+    text-decoration: none;
+    background-color: burlywood;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 1px solid burlywood;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    transition: .5s;
+}
+.cover-text> p{ color: black;
+line-height: 20px;
+text-align: justify;}
+.cover-text{ padding: 1%;}
+.cover-head p{ font-size: 15px;
+color: black;
+margin-bottom: 10px}
+.cover-head h3{ font-size: 30px;
+font-weight: 400;
+margin-bottom: 5px;}
+.cover-head{
+    text-align: center;
+}
+hr{ color: black;
+margin-bottom: 10px;}
+
+.header-box a:hover{
+    background-color: transparent;  
+}
+
+@media only screen and (max-width: 768px){
+    .skills{
+        flex-direction: column;
+    }
+    
+}
+.wapper{
+    background-color: #F2F2F2;
+    padding: 3% 0;
+    
+}
+img{
+    width: 100%;
+}
+.cover-box{
+    max-width: 80%;
+    margin: auto;
+    background: white;
+}
+
+/*skill section*/
+.single-skill a{ color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 14px;
+border: 1px solid;
+padding: 10PX 20PX;
+border-radius: 5PX} 
+.single-skill{ border-right: 4px solid #B9B9B9; 
+padding: 20px 50px;}
+.single-skill:last-child{ border-right: none;
+}
+
+.single-skill a:hover{ border-color: #7b7b7b; background-color: rgba(0,0,0,1); }
+.single-skill h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.single-skill p{ color: #B9B9B9;
+font-size: 100%;
+margin-bottom: 35px;
+line-height:25px;
+}
+.skills{ display: flex;
+text-align: center;
+padding: 6% 7%;
+justify-content: space-between;}
+.skill-wrapper,.hire-me{
+    background:linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,7)),url(imgs/body_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media only screen and (max-width: 768px){
+    .skills{
+        flex-direction: column;
+    }
+    
+}
+/*hire-me section*/
+.hire-text{ text-align: center;
+    padding: 50px;
+}
+.hire-text h6{
+    margin-bottom: 25px;
+    color: white;
+    font-size: 24px;
+}
+.hire-text p{
+    margin-bottom: 40px;
+    color:#B9B9B9;
+    font-size: 18px;
+    line-height: 22px
+}
+.hire-text a{
+    color: white;
+    text-decoration: none;
+    background-color: burlywood;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 1px solid burlywood;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    transition: .5s;
+}
+.hire-text a:hover{
+    background-color: transparent;  
+}
+/*blog section*/
+.posts{
+    display: flex;
+    justify-content: space-between;
+    max-width:90%;
+    margin: auto;
+}
+.single-post{
+    max-width: 45%;
+    background-color: white;
+}
+.post-text{ padding: 20px 50px;}
+.post-head{ text-align: center;
+margin-top: 20px;}
+.post-head h2{
+    margin-bottom: 10px;
+}
+post-head p{ color: dimgrey;
+margin-bottom: }
+
+.divider{ width: 100%;
+height: 1px;
+background-color: black;
+margin-bottom: 20px;}
+
+post-text p>{ 
+color: beige;
+text-align: justify;
+margin-bottom: 20px;}
+
+
+/*contact section*/
+.contact-content{
+    background-color: #FFF;
+    max-width: 87%;
+    margin: auto;
+}
+input[type=text],input[type=email],textarea{
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #B9B9B9;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    
+}
+input::placeholder, textarea::placeholder{
+    padding: 20px;
+}
+form{ 
+    padding: 50px;
+    text-align: center;
+    
+}
+.contact-header{
+    text-align: center;
+    margin: 0 50px;
+    padding: 60px 5px 0px 5px;
+}
+.contact-header h2{
+    margin-bottom: 45px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.submit{
+    
+    color: #000000;
+    font-size: 14px;
+    padding: 10px 24px;
+    border-radius:  5px;
+    border: 1px solid #b9b9b9;
+    margin-top:  40px;
+    transition: 4s;
+}
+.sub,it:hover{
+    background-color:  #7B7B7B;
+    background: rgba(0,0,0,5);
+    color: white;
+}
+/*footer section*/
+footer{
+    background-color: #4e4e4e;
+    text-align: center;
+    padding: 20px 0;
+    color: #DEDEDE;
+}
